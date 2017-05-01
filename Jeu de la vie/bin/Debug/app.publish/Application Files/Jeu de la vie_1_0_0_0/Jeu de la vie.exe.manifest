@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Jeu de la vie.exe" version="1.0.0.0" publicKeyToken="9aef3be37eb99fe0" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Jeu de la vie" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Jeu de la vie.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Options du manifeste de contrôle de compte d'utilisateur
+          Si vous souhaitez modifier le niveau du contrôle de compte d'utilisateur Windows, remplacez le 
+          nœud requestedExecutionLevel par l'une des propositions suivantes :
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si vous souhaitez utiliser la virtualisation de fichiers et du Registre pour la 
+         compatibilité descendante, supprimez le nœud requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Jeu de la vie.exe" size="18832">
+      <assemblyIdentity name="Jeu de la vie" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>jzvaUDt3/WeW/lVTNofz6XZC6Ac=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=PC-CELIAN\util" issuerKeyHash="8ff8a2e2584ae7487f10401dd22f7d749bcfa285" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>YqW0BIKYB5iPCTxIVf0jiLcjIN0=</DigestValue></Reference></SignedInfo><SignatureValue>oqhtdQ+GNRW+aozRps+4YJ0x03BJnkfkuh4RWlAwJ3CT/GV0WM4tT0G7wi+iADzmxqP0lPgcMahn9AeOCLuhHTJBOn18Exmv9K7nWax8WuMvDAS2Js1gMU9DL3lSuljiD4hcxCZHBOnRZoqbYol5BsZWbsXY1H4c3cMh7z53PS0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>yrV1xOg4rViLk9H3WZnx5IXPzhWeVbkwGw0NgtjKHHuL/zcCN3sRnuNYM9ep7pP8ihaV/WS+47nzIWJ5eSwnnJrmNojR6YXTkotKp40W+JvEXPlWL1x0qxwZh8C5GJ31fkQZXLIDu1MubedMV1BkK8Z1fWhOngFuOfEAhjgEx5E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="dd2023b78823fd55483c098f9807988204b4a562" Description="" Url=""><as:assemblyIdentity name="Jeu de la vie.exe" version="1.0.0.0" publicKeyToken="9aef3be37eb99fe0" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=PC-CELIAN\util</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>nA/qMyKhW2vq5QgJ4xpTXKE8ncY=</DigestValue></Reference></SignedInfo><SignatureValue>tgch961sAUU2b3QWTG4GXhmXPEmHrX2CkN8/3hv7Ekc6aQ7MuagWzfstNSNf/2LCRi/GqDGBHIAwjXwmqwyPamdm75qd6AciA6T7qRMmRBr4+Z/75TYnF6CUvuy7aSn04zZtSsdAturmclpFeWqvdiT7KChca/FAszEnRzAQflA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>yrV1xOg4rViLk9H3WZnx5IXPzhWeVbkwGw0NgtjKHHuL/zcCN3sRnuNYM9ep7pP8ihaV/WS+47nzIWJ5eSwnnJrmNojR6YXTkotKp40W+JvEXPlWL1x0qxwZh8C5GJ31fkQZXLIDu1MubedMV1BkK8Z1fWhOngFuOfEAhjgEx5E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQTMMM+k889YROMBB/fqQmVTANBgkqhkiG9w0BAQUFADAnMSUwIwYDVQQDHhwAUABDAC0AQwBFAEwASQBBAE4AXAB1AHQAaQBsMB4XDTE2MTEyMzE1MTcxMFoXDTE3MTEyMzIxMTcxMFowJzElMCMGA1UEAx4cAFAAQwAtAEMARQBMAEkAQQBOAFwAdQB0AGkAbDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAyrV1xOg4rViLk9H3WZnx5IXPzhWeVbkwGw0NgtjKHHuL/zcCN3sRnuNYM9ep7pP8ihaV/WS+47nzIWJ5eSwnnJrmNojR6YXTkotKp40W+JvEXPlWL1x0qxwZh8C5GJ31fkQZXLIDu1MubedMV1BkK8Z1fWhOngFuOfEAhjgEx5ECAwEAATANBgkqhkiG9w0BAQUFAAOBgQCXqgyj5LW1sI4zY4tzLgxe2oLd47nTtmhv4IL7F5dcl0KnSlWip5n/GOmfPPF++9Ww0bApZcsdC3IK+SKjHreBoa25W1d72GwxELvvnu4jnaViUEGfJAvVkafHKg822/FzD+pI6E/yuXNsqp4MvnMfPPMkUNldCP02s/n0XqG80A==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
