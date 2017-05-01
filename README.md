@@ -1,2 +1,2 @@
 # JeuDeLaVie
-![alt text](https://github.com/hyrozen88/JeuDeLaVie/blob/master/demo.gif)
+![alt text](https://github.com/celianB/JeuDeLaVie/blob/master/demo.gif)
